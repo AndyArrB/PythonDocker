@@ -1,0 +1,16 @@
+#SO Y PYTHON
+FROM python:3.12-slim
+
+#DIRECTORIO DE TRABAJO
+WORKDIR /app
+#COPIA DE ARCHIVOS COMO EL GIT CLONE
+COPY . /app
+
+#INSTALACIÓN DE DEPENDENCIAS
+RUN pip install --no-cache-dir -r requirements.txt
+
+#PUERTO DE TRABAJO
+EXPOSE 5000
+
+#COMANDO PARA EJECUTAR LA APLICACIÓN
+CMD ["python", "app.py"]

@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     conn = pymysql.connect(
-        host='localhost',
+        host='mysql',
         user='root',
         password='root',  # Nota que 'passwd' debe ser 'password' en pymysql
         database='db'
@@ -22,4 +22,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5050, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
