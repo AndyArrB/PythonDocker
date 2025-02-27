@@ -10,7 +10,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 #PUERTO DE TRABAJO
-EXPOSE 5000
+EXPOSE 8080
 
 #COMANDO PARA EJECUTAR LA APLICACIÓN
 CMD ["python", "app.py"]

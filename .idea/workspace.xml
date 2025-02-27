@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d077d742-d139-4f77-b98e-c9c26ffbd75b" name="Changes" comment="Creación de proyecto">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,9 @@
       <updated>1740013952161</updated>
       <workItem from="1740013953247" duration="3314000" />
       <workItem from="1740022897122" duration="960000" />
-      <workItem from="1740445512792" duration="3327000" />
+      <workItem from="1740445512792" duration="3592000" />
+      <workItem from="1740525987061" duration="2596000" />
+      <workItem from="1740616347564" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de proyecto">
       <option name="closed" value="true" />
